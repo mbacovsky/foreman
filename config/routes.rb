@@ -290,6 +290,4 @@ Foreman::Application.routes.draw do
 #    end
   end
 
- #Keep this line the last route
-  match '*a', :to => 'errors#routing'
 end

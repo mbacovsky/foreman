@@ -15,6 +15,7 @@ gem 'uuidtools'
 gem 'rabl'
 # Previous versions collide with Environment model
 gem "ruby_parser", ">= 2.3.1"
+gem 'rabl'
 
 local_gemfile = File.dirname(__FILE__) + "/Gemfile.local.rb"
 if File.file?(local_gemfile)
