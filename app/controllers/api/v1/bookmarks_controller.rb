@@ -4,7 +4,7 @@ module Api
       before_filter :find_by_name, :only => [:show, :update, :destroy]
 
       def index
-        @bookmarks = Bookmark.all
+        @bookmarks = Bookmark.paginate(:page => params[:page])
       end
 
       def show
