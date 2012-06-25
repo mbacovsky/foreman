@@ -18,7 +18,7 @@ gem 'rabl'
 gem "ruby_parser", ">= 2.3.1"
 gem 'rabl'
 
-gem "restapi", '0.0.4.kt3'
+gem "restapi", :git => "git://github.com/Katello/rails-restapi.git", :branch => "katello"
 
 local_gemfile = File.dirname(__FILE__) + "/Gemfile.local.rb"
 if File.file?(local_gemfile)
