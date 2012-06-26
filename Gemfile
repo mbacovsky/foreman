@@ -67,6 +67,7 @@ group :test do
   gem 'rr'
   gem 'rake'
   gem 'redcarpet'
+  gem 'single_test'
 end
 
 group :development do
